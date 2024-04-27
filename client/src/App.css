@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color:white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #222;
+}
+img{
+  height:14rem;
+  width:14rem;
+}
+main{
+  padding: 10px;
+  margin:0 auto; 
+}
+
+header a{
+  display: flex;
+  text-decoration: none;
+  color:inherit;
+}
+header a.logo{
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.7rem;
+  letter-spacing: 0.3rem;
+ 
+}
+header div.nav-display{
+  display: flex;
+  justify-content: space-between;
+  justify-content: end;
+  margin-top: -2.5rem;
+  margin-bottom: 70px;
+  align-items: center;
+}
+header nav{
+  display: flex;
+  gap: 15px;
+}
+
+header nav a{
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+  
+
+}
+
+div.apibooks-background-color{
+  width: max-content;
+  height: 20rem;
+}
+div.post{
+  margin-left: 170px;
+  padding: 20px;
+  display: flex;
+}
+
+div.post div.image{
+  gap: 20px;
+}
+div.post div.texts a{
+  text-decoration: none;
+  color:black;
+  font-family: 'Syne', sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  
+}
+div.post div.texts a h2{
+  margin-left: 10px;
+}
+div.post p.info{
+  margin: 6px 0;
+  color:#888;
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  
+}
+div.post p.info a.author{
+  color:#333;
+}
+div.post p.summary{
+  margin: 10px 0;
+  line-height: 1.4rem;
+}
+form.login form.register{
+  max-width: 400px;
+  margin: 0 auto;
+}
+input{
+  display: block;
+  margin-bottom:5px;
+  width: 100%;
+  padding: 5px 7px;
+  background-color: #eee;
+  border: 1px solid rgb(95, 88, 88);
+  border-radius: 5px;
+}
+button{
+  width: 100%;
+  display: block;
+  background-color: #555;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  padding: 7px 0;
+}
+form.login h1 form.register h1{
+  text-align: center;
+  color: lightslategray;
+}
+
+div.html-css-test{
+  display: flex;
+  height: 700px; 
+}
+
+div.gif-presentation{
+  display: flex;
+  justify-content: center; 
+}
+div.gif-presentation img{
+  width: 70rem;
+  height:40rem ;
+}
+h2.gif-presentation-title{
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+}
+
+div.background-api{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color:#ffc0cb5e;
+  height: 65rem;
+  width: 100%;
+  margin-top: -13rem;
+  
+  
+}
+
+div.background-api h1{
+  font-family: 'Syne', sans-serif;
+  color: #D33A2C;
+  font-size: 40px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+
+div.display-post{
+  margin: 10rem;
+  
+}
+div.display-post h1{
+  font-family: 'Syne', sans-serif;
+  color: #D33A2C;
+  font-size: 40px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+div.posts-articles{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+a svg{
+  height:20px;
+}
+
+div.footer-section{
+  width: 100%;
+  height: 14rem;
+  background-color:whitesmoke;
+  display: flex;
+}
+
+div.footer-section a{
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  font-size: 1.7rem;
+  letter-spacing: 0.3rem;
+}
+div.footer-section li{
+  list-style: none;
+  padding: 6px 0px;
+  font-family: 'Syne', sans-serif;
+  color: black;
+}
+
+.third-section{
+  text-align: center;
+  color:#222;
+  
+}
+.third-section img{
+  height: 22em;
+}
+.book-carrousel{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+div.section-book{
+  margin-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
